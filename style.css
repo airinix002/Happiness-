@@ -1,0 +1,393 @@
+@font-face {
+    font-family: "Khand";
+    src:
+      url("Khand-Light.ttf")
+  }
+
+  @font-face {
+    font-family: "Rajani";
+    src:
+      url("img/Rajdhani-Bold.ttf")
+  }
+
+body{
+    width: 1685px;
+    background-color: #ffff;
+}
+
+/* HEADEER */
+.container{
+    display: inline-flex;
+    align-items: center;
+    margin-left:  20px;
+}
+
+.tell{
+    margin-left: 80px;
+    font-family:Khand;
+    font-weight: bold;
+}
+.tell h3{
+    font-size:xx-large;
+    font-family:Khand;
+    font-weight: 900;
+}
+
+
+.nav-center-block{
+    margin-left: 95px;
+}
+.nav-center-block a{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: larger;
+    font-family: Khand;
+}
+.nav-center-block a:hover{
+    color: #fbb3b3;
+    transition: .5s;
+}
+
+
+
+.nav-right-block{
+    display: flex;
+    margin-left: 450px;
+}
+
+ .like{
+    margin-left: 20px;
+    height: 42px;
+    width: 42px;
+    /* border-radius: 90px 90px 250px 250px; */
+}
+/* .like:hover{
+    background-color: #fb7474;
+}  */
+
+.profil{
+    margin-left: 20px;
+    height: 42px;
+    width: 42px;
+}
+
+
+/* Hero */
+.hero-img{
+    width: 1685px;
+    height: 722px;
+}
+
+/* Choice */
+.Choice-area{
+    background-color: #ffff;
+    width: 1685px;
+}
+
+.choice-container{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+   flex-direction: column; 
+}
+
+.choice-jewelry{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Women-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+
+
+.men-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-top: 80px;
+}
+
+.choice-title{
+    font-size: xx-large;
+    margin: 20px;
+    display: flex;
+    font-weight: 800;
+}
+
+.choice-title h5{
+    align-items: center;
+}
+
+
+
+.necklace{
+    width: 193px ;
+    height: 269px ;
+    border-radius: 31px;
+    transition: .5s;
+}
+.necklace:hover{
+    /* transform: scale(1.1); */
+    opacity: 0.8 ;  
+}
+
+
+
+.jewelry1{
+    position: relative;
+    display: inline-block;
+}
+.text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding-bottom: 120px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .5s;
+    font-size: 24px;
+}
+.jewelry1:hover .text{
+    opacity: 1;
+}
+
+
+
+
+.row-title{
+    font-size: 24px;
+}
+
+.bracelet{
+    width: 193px ;
+    height: 269px ;
+    border-radius: 31px;
+    transition: .5s;
+} 
+.bracelet:hover{
+    /* transform: scale(1.1); */
+    opacity: 0.8;
+}
+
+.rings{
+    width: 193px ;
+    height: 269px ;
+    border-radius: 31px;
+    transition: .5s;
+}
+.rings:hover{
+    /* transform: scale(1.1); */
+    opacity: 0.8;
+}
+
+.earrings{
+    width: 193px ;
+    height: 269px ;
+    border-radius: 31px;
+    transition: .5s;
+}
+.earrings:hover{
+    /* transform: scale(1.1); */
+    opacity: 0.8;
+}
+
+.watch{
+    width: 193px ;
+    height: 269px ;
+    border-radius: 31px;
+    transition: .5s;
+}
+.watch:hover{
+    /* transform: scale(1.1); */
+    opacity: 0.8;
+}
+
+
+
+/* Footer */
+.footer-area{
+    width: 1685px;
+    background-image: linear-gradient(180deg,#ffffff,#5c5c5c);
+    padding-top: 30vh;
+}
+
+.footer-container{
+    display: flex;
+    margin: 40px;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+}
+
+
+.footer-block{
+    background-color: black;
+    width: 1685px;
+    height: 85px;
+    display: flex;
+}
+
+.footer-left{
+ margin-right: 290px;
+}
+
+.icon{
+    display: flex;
+
+}
+
+.Categories{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info{
+    display: flex;
+}
+
+.info{
+    gap: 100px;
+}
+
+.Categories h5{
+    font-size: 24px;
+}
+
+.Categories span{
+    font-size: 24px;
+    font-family:Khand;
+}
+
+.schedule p{
+    font-size: 24px;
+    font-weight: lighter;
+}
+.schedule h3{
+    font-size: 45px;
+    font-family: "Rajani";
+}
+
+/* CONTENT */
+.content-area{
+    margin-bottom: 100px;
+    margin-top: 30vh;
+}
+
+.content-container{
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    column-gap: 20px;
+}
+
+.gap{
+    display: flex;
+    column-gap: 20px;
+}
+
+.section{
+    background-color: rgb(244, 244, 244);
+    width: 320px;
+    height: 360px;
+    padding: 40px;
+}
+.section:hover{
+    background-color: rgb(255, 241, 239);
+    transition: .5s;
+}
+
+
+.rings2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.section2{
+    background-color: rgb(244, 244, 244);
+    padding: 40px;
+    width: 320px;
+    height: 360px;
+}
+.section2:hover{
+    background-color: rgb(255, 241, 239);
+    transition: .5s;
+}
+
+.wedding-rings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+.section3-4{
+    display: grid;
+    row-gap: 20px;
+}
+
+.section3{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(244, 244, 244);
+    width: 390px;
+    height: 200px;
+}
+.section3:hover{
+    background-color: rgb(255, 241, 239);
+    transition: .5s;
+}
+
+
+.without-an-insert{
+    height: 100%;
+}
+
+
+
+.section4{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(244, 244, 244);
+    width: 390px;
+
+}
+.section4:hover{
+    background-color: rgb(255, 241, 239);
+    transition: .5s;
+}
+
+
+.with-insert{
+    height: 100%;
+}
+
+.content-title{
+    width: 100%;
+    height: 46px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.content-title span{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #372924;
+}
